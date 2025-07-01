@@ -126,7 +126,7 @@ pipeline {
             }
             steps {
                 script {
-                    sh 'curl -X PUT -u admin:Admin@123456789 -T /var/lib/jenkins/workspace/CIPipeline/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar "http://54.177.79.112:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar"'
+                    sh 'curl -X PUT -u admin:Admin@123456789 -T /var/lib/jenkins/workspace/CI_Pipeline/target/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar "http://54.177.79.112:8082/artifactory/example-repo-local/kubernetes-configmap-reload-0.0.1-SNAPSHOT.jar"'
                 }
             }
         }
